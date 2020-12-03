@@ -1,0 +1,27 @@
+// ------  BUTTON
+$button-size: (
+   x: 10px,
+   s: 15px,
+   m: 20px,
+   l: 25px,
+) !default;
+
+$button-bg: (
+   blue: linear-gradient(90deg, rgb(78, 167, 246) 0%, rgb(0, 234, 246) 100%),
+   green: linear-gradient(90deg, rgb(65, 226, 119) 0%, rgb(54, 241, 208) 100%),
+   danger: linear-gradient(90deg, rgb(246, 114, 159) 0%, rgb(246, 231, 78) 100%),
+) !default;
+
+//BADGE
+$badge-size: (
+   x: 2px,
+   s: 3px,
+   m: 4px,
+   l: 5px,
+) !default;
+
+$badge-bg: (
+   blue: rgb(78, 167, 246),
+   green: rgb(65, 226, 119),
+   danger: rgb(246, 114, 159),
+) !default;

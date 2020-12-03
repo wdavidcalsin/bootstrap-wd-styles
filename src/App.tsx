@@ -1,9 +1,10 @@
-import "./App.css";
+import "./App.scss";
+import Page from "./pages/home";
 
 function App() {
    return (
       <div className="App">
-         <header className="App-header">David Calsin Borda </header>
+         <Page />
       </div>
    );
 }

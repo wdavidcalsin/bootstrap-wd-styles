@@ -1,0 +1,20 @@
+@import "../variables/variables.scss";
+
+.badge {
+   border-radius: 5px;
+   margin: 0 10px;
+   color: white;
+
+   @each $name-color, $bgcolor in $badge-bg {
+      &.#{$name-color} {
+         background-color: $bgcolor;
+      }
+   }
+
+   @each $name-size, $size in $badge-size {
+      &.#{$name-size} {
+         padding: $size/1.5 $size * 3;
+         //  font-size: $size;
+      }
+   }
+}

@@ -1,0 +1,27 @@
+@import "../variables/variables.scss";
+
+.btn {
+   background-color: orange;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   border-radius: 50px;
+   color: white;
+   font-weight: bold;
+   font-size: 10px;
+   padding: 10px 20px;
+   margin: 5px;
+
+   @each $name-color, $bgcolor in $button-bg {
+      &.#{$name-color} {
+         background-image: $bgcolor;
+      }
+   }
+
+   @each $name-size, $size in $button-size {
+      &.#{$name-size} {
+         padding: $size/1.5 $size * 2;
+         font-size: $size;
+      }
+   }
+}
