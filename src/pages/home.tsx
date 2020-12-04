@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import { Button } from "../components";
+import { Badge } from "../components";
 import { range } from "lodash";
-import { Badge } from "../components/badge";
 
 const btns = [
    { bg: "blue", size: "x" },
@@ -16,7 +16,13 @@ function Home() {
          <div className="button brd">
             <div className="container">
                {btns.map((item, index) => (
-                  <Button bg={item.bg} size={item.size} key={index}>
+                  <Button
+                     bg={item.bg}
+                     size={item.size}
+                     key={index}
+                     disabled
+                     type="submit"
+                  >
                      Click
                   </Button>
                ))}
