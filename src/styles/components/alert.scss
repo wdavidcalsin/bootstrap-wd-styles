@@ -1,0 +1,18 @@
+.alertContent {
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   width: auto;
+   padding: 20px;
+   border-radius: 5px;
+   margin: auto;
+   background-color: orange;
+   font-weight: 600;
+
+   @each $name-color, $bgcolor in $alert-bg {
+      &.#{$name-color} {
+         background-image: $bgcolor;
+         color: white;
+      }
+   }
+}

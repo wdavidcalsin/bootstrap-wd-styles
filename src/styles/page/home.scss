@@ -2,3 +2,11 @@
    border-bottom: 2px dashed rgba(0, 0, 0, 0.1);
    padding: 40px 0;
 }
+
+.content {
+   display: flex;
+
+   section {
+      width: 100%;
+   }
+}

@@ -3,7 +3,7 @@ import React, { ButtonHTMLAttributes } from "react";
 interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
    bg?: string;
    size?: string;
-   children: any;
+   children?: any;
 }
 
 export const Button = (props: Props) => {

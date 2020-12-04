@@ -1,4 +1,3 @@
-import "./App.scss";
 import Page from "./pages/home";
 
 function App() {
