@@ -1,0 +1,32 @@
+.sidebar {
+   width: 250px;
+   box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.05);
+   height: 100vh;
+   .side-title {
+      margin: 0;
+      font-size: 20px;
+      text-align: center;
+      padding: 20px 0;
+      text-transform: uppercase;
+      color: rgb(82, 80, 80);
+   }
+
+   .list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      a {
+         text-decoration: none;
+         padding: 10px 20px;
+         display: block;
+         color: rgb(106, 108, 109);
+         font-size: 1.1em;
+         font-weight: 600;
+         transition: all 0.5s;
+
+         &:hover {
+            background-color: rgba(114, 118, 119, 0.05);
+         }
+      }
+   }
+}

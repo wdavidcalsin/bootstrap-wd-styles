@@ -9,3 +9,6 @@ code {
    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
       monospace;
 }
+
+@import "./styles/components/index.scss";
+@import "./styles/page/home.scss";
