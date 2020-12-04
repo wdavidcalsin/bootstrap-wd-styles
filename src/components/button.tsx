@@ -1,5 +1,16 @@
-import React from "react";
+import React, { ButtonHTMLAttributes } from "react";
 
-export const Button = ({ children, bg = "", size = "" }: any) => {
-   return <button className={`btn ${bg} ${size}`}>{children}</button>;
+interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
+   bg?: string;
+   size?: string;
+   children: any;
+}
+
+export const Button = (props: Props) => {
+   const { bg, children, size, ...rest } = props;
+   return (
+      <button className={`btn ${bg} ${size}`} {...(rest as any)}>
+         {children}
+      </button>
+   );
 };
