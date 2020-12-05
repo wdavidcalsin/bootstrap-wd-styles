@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-wd-styles",
-  "version": "0.9.0",
+  "version": "0.9.4",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -55,7 +55,10 @@
     "url": "git+https://github.com/wdavidcalsin/bootstrap-wd-styles.git"
   },
   "keywords": [],
-  "author": "",
+  "author": {
+    "name": "Willian David Calsin",
+    "email": "wdavidcalsin968@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/wdavidcalsin/bootstrap-wd-styles/issues"
