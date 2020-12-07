@@ -9,6 +9,11 @@
    background-color: orange;
    font-weight: 600;
 
+   svg {
+      padding-right: 10px;
+   }
+
+
    @each $name-color, $bgcolor in $alert-bg {
       &.#{$name-color} {
          background-image: $bgcolor;
