@@ -1,5 +1,4 @@
 export { Button } from "./button";
 export { Badge } from "./badge";
-export { useAlert } from "./alert/useAlert";
-export { Alert } from "./alert/alertContent";
+export { Alert } from "./alert";
 export { Aside } from "./sidebar";
