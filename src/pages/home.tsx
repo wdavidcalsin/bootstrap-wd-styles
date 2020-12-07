@@ -1,9 +1,11 @@
 import React, { Fragment } from "react";
 import { Button } from "../components";
 import { Badge } from "../components";
+
 import { Alert } from "../components";
 import { Aside } from "../components";
 import { useAlert } from "../context/alert.context";
+
 
 const btns = [
    { bg: "blue", size: "x" },
@@ -13,7 +15,9 @@ const btns = [
 ];
 
 function Home() {
+
    const { toggle } = useAlert();
+
 
    return (
       <Fragment>
@@ -36,6 +40,8 @@ function Home() {
                   </div>
                </div>
 
+
+
                <div className="badge brd">
                   <div className="container">
                      {btns.map((item, index) => (
@@ -49,10 +55,12 @@ function Home() {
                <div className="alert brd">
                   <div className="container">
                      <Button onClick={toggle} bg="blue" size="s">
+
                         Alert
                      </Button>
                      <Alert
                         // hide={toggle}
+
                         content="Mi nombre es willian david"
                         bg="green"
                      />

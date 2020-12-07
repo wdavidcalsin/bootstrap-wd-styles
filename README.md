@@ -1,3 +1,4 @@
+
 # Simple framework created in SCSS and typescript that is compliant with react
 
 To stylize our website more quickly, as it is compliant with all types of projects as it is not only for react projects, but can also be adapted to a basic project.
@@ -55,6 +56,7 @@ function Home() {
 ```
 
 &nbsp;
+
 
 > ## Alert
 

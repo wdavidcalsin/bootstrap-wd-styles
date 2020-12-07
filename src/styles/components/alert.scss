@@ -13,6 +13,7 @@
       padding-right: 10px;
    }
 
+
    @each $name-color, $bgcolor in $alert-bg {
       &.#{$name-color} {
          background-image: $bgcolor;
